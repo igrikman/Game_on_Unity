@@ -57,6 +57,7 @@ public class Sc_Charecter : MonoBehaviour
     {
         Collider2D[] colider = Physics2D.OverlapCircleAll(transform.position, 1F);
         isGround = colider.Length > 1;
+        if (!isGround) State = CharState.Jump;
     }
 }
 public enum CharState
