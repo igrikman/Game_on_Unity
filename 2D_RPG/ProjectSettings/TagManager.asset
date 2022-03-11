@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BackGround
   - Platform
+  - Bullet
   layers:
   - Default
   - TransparentFX

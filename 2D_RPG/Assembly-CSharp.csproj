@@ -58,8 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Sc_Charecter.cs" />
     <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
-    <Compile Include="Assets\Scripts\Sc_Walk.cs" />
+    <Compile Include="Assets\Scripts\Sc_Unit.cs" />
     <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
+    <Compile Include="Assets\Scripts\Sc_Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Knight Files\Read Me.txt" />
