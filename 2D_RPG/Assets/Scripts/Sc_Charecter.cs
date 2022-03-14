@@ -67,14 +67,16 @@ public class Sc_Charecter : Sc_Unit
 
     private void Shoot()
     {
-        Vector3 position = transform.position; position.y += 1.0F;
+        Vector3 position = transform.position; position.y += 0.0F; position.x += 0.0F; 
         Sc_Bullet newBullet = Instantiate(bullet , position, bullet.transform.rotation);
         newBullet.Derection = newBullet.transform.right * (sprite.flipX ? -1.0F : 1.0F);
+        State = CharState.Fire;
     }
 }
 public enum CharState
 {
     Idle,
     Walk,
-    Jump
+    Jump,
+    Fire
 }
